@@ -12,6 +12,7 @@ namespace ConsoleApplication
             {
                 for (int minute = 0; minute < 60; minute++)
                 {
+                    // test with an arbitrary date
                     DateTime testDate = new DateTime (2017,3,4,hour,minute,0);
                     isNight = IsNightTime(testDate, 6, 35, 18, 45);
                     Console.WriteLine("Is {0} night? {1}",testDate,isNight);
